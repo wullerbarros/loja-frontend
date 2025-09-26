@@ -1,16 +1,82 @@
-# React + Vite
+# 🛍️ Loja - Front-End (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o **front-end** da aplicação Loja, desenvolvido em **React** com **Vite**.  
+Ele se conecta ao **back-end** para exibir e manipular **produtos**, **categorias** e **usuários**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/) (para requisições HTTP)
+- [TailwindCSS](https://tailwindcss.com/) (ou outra lib de estilização que você usou)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Instalação e Execução
 
-## Expanding the ESLint configuration
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/wullerbarros/loja-frontend.git
+cd loja-frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Instalar dependências
+npm install
+
+3. Configurar o Back-End
+
+Certifique-se de que o back-end está rodando em:
+👉 http://localhost:3000
+
+Se precisar alterar a URL da API, edite o arquivo onde o axios está configurado.
+
+4. Rodar o projeto
+
+npm run dev
+
+O front-end iniciará em:
+👉 http://localhost:5173 (ou porta definida pelo Vite)
+
+📚 Funcionalidades
+
+Listagem de produtos, categorias e usuários
+
+Cadastro, edição e exclusão de dados
+
+Integração direta com a API do back-end
+
+⚠️ Observações
+
+O CPF do usuário é validado (máx. 11 dígitos).
+
+O sistema ainda não possui autenticação.
+
+Está preparado para futuras melhorias (login, dashboard de vendas, etc).
+
+📌 Próximos Passos
+
+Implementar autenticação e controle de sessão.
+
+Criar dashboard para relatórios de vendas.
+
+Melhorar experiência do usuário com feedbacks visuais.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
